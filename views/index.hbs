@@ -1,0 +1,34 @@
+<script src="javascripts/index.js"></script>
+
+<ul class="navbar">
+    <li><a class="active">Home</a></li>
+    <li><a href="/comment">Contact</a></li>
+    <li style="float:right"><a href="/about">About</a></li>
+</ul>
+<div class="main">
+    <img id="logo" src="images/beter-min.png" alt="🅱️ enry S🅱️ eak Logo" title="🅱️enry S🅱️eak Logo">
+</div>
+<p1>1 like = 10 free iphone</p1>
+<br>
+<form action="/translate" method="GET">
+    <div id="ioContainer">
+        <textarea name="input" cols="80" rows="15" style="margin-top:10px" placeholder="Enter text here" id="textField">{{input}}</textarea>
+        <br>
+        {{#if output}}
+            <div id="output">{{output}}</div>
+            {{#if say}}
+                <p>hello</p>
+
+            {{/if}}
+        {{/if}}
+    </div>
+    <div class="holdshit">
+        <div id="directbox">
+            <p1 id="directo">Enter any text and it will become something that our friend Henry would say.</p1>
+        </div>
+        <div id="check">
+            <img id="bete" src="images/beterSay.png" onclick="speak()">
+        </div>
+        <input id=bransbate type="submit" value="&#127345;rans&#127345;ate">
+    </div>
+</form>
