@@ -162,3 +162,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Firebase key
+firebase-key.json
+
+# Honestly bro just hide it all
+.idea/
